@@ -28,7 +28,7 @@ def ocr_pdf(pdf_path):
 
 
 if __name__ == "__main__":
-    pdf_path = "181_9 SMP_ADNAN BINTANG TAULADAN_181-24-10329_Hasil TLN.pdf"
+    pdf_path = "e-Procurement System Berbasis Blockchain.pdf"
     result = ocr_pdf(pdf_path)
     output_md = os.path.splitext(pdf_path)[0] + ".md"
 
